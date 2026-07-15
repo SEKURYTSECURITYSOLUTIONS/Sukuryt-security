@@ -5,71 +5,191 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>SekuRyt Security Solutions</title>
 
+<meta name="description" content="Professional CCTV, Electric Fence, Gate Motor, Alarm Systems and Security Installations in Gauteng.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
 <style>
-body{
+
+*{
 margin:0;
-font-family:Arial,Helvetica,sans-serif;
-background:#111;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:#0b0d10;
 color:white;
+line-height:1.7;
 }
 
 header{
-background:#000;
-padding:20px;
-text-align:center;
+background:#111827;
+padding:18px 8%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+position:sticky;
+top:0;
+z-index:999;
+box-shadow:0 5px 20px rgba(0,0,0,.4);
 }
 
-header img{
-width:180px;
-border-radius:12px;
+.logo{
+font-size:28px;
+font-weight:800;
+color:#1da1ff;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:30px;
+font-weight:500;
+transition:.3s;
+}
+
+nav a:hover{
+color:#1da1ff;
 }
 
 .hero{
-padding:50px 20px;
+
+min-height:90vh;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
 text-align:center;
+
+padding:40px;
+
+background:
+linear-gradient(rgba(0,0,0,.75),rgba(0,0,0,.8));
+
 }
 
 .hero h1{
-font-size:40px;
-color:#2196F3;
+
+font-size:55px;
+
+margin-bottom:20px;
+
 }
 
 .hero p{
-font-size:20px;
-color:#ddd;
-max-width:700px;
+
+font-size:22px;
+
+max-width:850px;
+
 margin:auto;
+
+margin-bottom:40px;
+
+color:#d9d9d9;
+
 }
 
-.button{
+.whatsapp{
+
 display:inline-block;
-margin:15px;
-padding:15px 30px;
-background:#2196F3;
+
+background:#25D366;
+
+padding:18px 38px;
+
+border-radius:50px;
+
 color:white;
+
 text-decoration:none;
-border-radius:8px;
-font-weight:bold;
+
+font-weight:700;
+
+font-size:20px;
+
+transition:.3s;
+
+}
+
+.whatsapp:hover{
+
+transform:scale(1.05);
+
+}
+
+section{
+
+padding:90px 8%;
+
+}
+
+.section-title{
+
+text-align:center;
+
+font-size:40px;
+
+margin-bottom:50px;
+
+color:#1da1ff;
+
 }
 
 .services{
-padding:40px;
-text-align:center;
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+
+gap:25px;
+
 }
 
-.service{
-background:#1b1b1b;
-margin:15px;
-padding:20px;
-border-radius:10px;
+.card{
+
+background:#161b22;
+
+padding:30px;
+
+border-radius:15px;
+
+transition:.4s;
+
+}
+
+.card:hover{
+
+transform:translateY(-8px);
+
+}
+
+.card h3{
+
+margin:15px 0;
+
+color:#1da1ff;
+
 }
 
 footer{
-background:black;
-padding:20px;
+
+background:#111827;
+
 text-align:center;
-color:#999;
+
+padding:30px;
+
 }
+
 </style>
 
 </head>
@@ -77,59 +197,330 @@ color:#999;
 <body>
 
 <header>
-<h2>SekuRyt Security Solutions</h2>
+
+<div class="logo">
+
+SEKU<span style="color:white;">RYT</span>
+
+</div>
+
+<nav>
+
+<a href="#">Home</a>
+
+<a href="#about">About</a>
+
+<a href="#services">Services</a>
+
+<a href="#gallery">Gallery</a>
+
+<a href="#contact">Contact</a>
+
+</nav>
+
 </header>
 
 <section class="hero">
-<h1>Your Safety Is Our Priority</h1>
+
+<div>
+
+<h1>
+
+Protecting Homes & Businesses Across Gauteng
+
+</h1>
 
 <p>
-Professional CCTV, Electric Fence, Gate Motor,
-Garage Door, Alarm and Security Installations
-across Gauteng.
+
+Professional CCTV • Electric Fence • Gate Motors • Alarm Systems • Intercoms • Satellite Installation
+
 </p>
 
-<a class="button" href="https://wa.me/27703044709">WhatsApp Us</a>
+<a class="whatsapp"
 
-<a class="button" href="tel:+27703044709">Call Now</a>
+href="https://wa.me/27703044709?text=Hello%20SekuRyt%20Security%20Solutions.%20I%20would%20like%20a%20FREE%20quotation."
 
-</section>
+>
 
-<section class="services">
+💬 GET A FREE QUOTE ON WHATSAPP
 
-<h2>Our Services</h2>
+</a>
 
-<div class="service">
-📹 CCTV Installations
-</div>
-
-<div class="service">
-⚡ Electric Fence Installations
-</div>
-
-<div class="service">
-🚪 Gate Motor Automation
-</div>
-
-<div class="service">
-🏠 Garage Door Motors
-</div>
-
-<div class="service">
-🚨 Alarm Systems
-</div>
-
-<div class="service">
-🛠 Maintenance & Repairs
 </div>
 
 </section>
+
+<section id="about">
+
+<h2 class="section-title">About SekuRyt</h2>
+
+<p style="text-align:center;max-width:900px;margin:auto;font-size:18px;">
+
+SekuRyt Security Solutions provides professional security installations for homes,
+businesses and industrial properties.
+
+We specialise in CCTV Systems, Electric Fencing,
+Gate Motor Automation, Alarm Systems,
+Intercoms, Garage Door Motors,
+TV Wall Mounting and Satellite Installation.
+
+We pride ourselves on quality workmanship,
+professional service and customer satisfaction.
+
+</p>
+
+</section>
+
+
+<section id="services">
+
+<h2 class="section-title">
+
+Our Services
+
+</h2>
+
+<div class="services">
+
+<div class="card">
+
+<h3>📹 CCTV Installation</h3>
+
+<p>
+
+Professional installation, maintenance and remote viewing.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>⚡ Electric Fencing</h3>
+
+<p>
+
+Residential and commercial electric fence installations.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>🚪 Gate Motors</h3>
+
+<p>
+
+Installation, repairs and maintenance.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>🚨 Alarm Systems</h3>
+
+<p>
+
+Home and business alarm installations.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>📡 Intercom Systems</h3>
+
+<p>
+
+Audio and video intercom solutions.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>🛰 Satellite Installation</h3>
+
+<p>
+
+Satellite dishes, signal distribution and TV wall mounting.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+<section id="gallery">
+
+<h2 class="section-title">
+
+Recent Projects
+
+</h2>
+
+<p style="text-align:center;font-size:18px;">
+
+Our gallery showcasing CCTV, Electric Fence,
+Gate Motor and Alarm System installations
+will be added here using real SekuRyt project photos.
+
+</p>
+
+</section>
+
+
+<section>
+
+<h2 class="section-title">
+
+Why Choose SekuRyt?
+
+</h2>
+
+<div class="services">
+
+<div class="card">
+
+✔ Free Quotations
+
+</div>
+
+<div class="card">
+
+✔ Domestic & Commercial
+
+</div>
+
+<div class="card">
+
+✔ Professional Installations
+
+</div>
+
+<div class="card">
+
+✔ Quality Products
+
+</div>
+
+<div class="card">
+
+✔ Fast Turnaround
+
+</div>
+
+<div class="card">
+
+✔ Customer Satisfaction
+
+</div>
+
+</div>
+
+</section>
+
+<section id="contact">
+
+<h2 class="section-title">
+
+Contact Us
+
+</h2>
+
+<div style="text-align:center;">
+
+<p style="font-size:22px;margin-bottom:25px;">
+
+📍 Soweto | Johannesburg South | Surrounding Areas
+
+</p>
+
+<p style="font-size:20px;margin-bottom:35px;">
+
+🟢 We reply on WhatsApp as quickly as possible.
+
+</p>
+
+<a class="whatsapp"
+
+href="https://wa.me/27703044709?text=Hello%20SekuRyt%20Security%20Solutions.%20I%20would%20like%20a%20FREE%20quotation."
+
+>
+
+💬 GET A FREE QUOTE
+
+</a>
+
+</div>
+
+</section>
+
 
 <footer>
 
+<h3>SekuRyt Security Solutions</h3>
+
+<p>
+
+Professional CCTV • Electric Fence • Gate Motors • Alarm Systems • Intercoms
+
+</p>
+
+<br>
+
+<p>
+
 © 2026 SekuRyt Security Solutions
 
+</p>
+
 </footer>
+
+
+<a
+
+href="https://wa.me/27703044709?text=Hello%20SekuRyt%20Security%20Solutions.%20I%20would%20like%20a%20FREE%20quotation."
+
+style="
+
+position:fixed;
+
+bottom:20px;
+
+right:20px;
+
+background:#25D366;
+
+color:white;
+
+padding:18px 22px;
+
+border-radius:50px;
+
+text-decoration:none;
+
+font-weight:bold;
+
+font-size:18px;
+
+box-shadow:0 8px 25px rgba(0,0,0,.4);
+
+z-index:9999;
+
+">
+
+💬 WhatsApp
+
+</a>
 
 </body>
 
